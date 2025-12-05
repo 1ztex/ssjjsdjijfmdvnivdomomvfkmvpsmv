@@ -1,0 +1,21 @@
+{
+  "name": "storybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.8",
+    "express": "^5.1.0",
+    "link-preview-js": "^3.2.0",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  }
+}
