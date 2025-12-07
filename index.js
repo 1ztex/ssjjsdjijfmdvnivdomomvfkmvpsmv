@@ -18,7 +18,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // ⚠️⚠️⚠️ ضع توكن البوت هنا ⚠️⚠️⚠️
-const BOT_TOKEN = process.env.BOT_TOKEN || "8595212169:AAEiqhnw1ZBASWnpK7Yl2f1eTd0uCVfyPPM"; 
+const BOT_TOKEN = process.env.BOT_TOKEN || "8595212169:AAEWRmeafPSF9O3goMDxneMEFEqz98-MBos"; 
 
 const bot = new Telegraf(BOT_TOKEN);
 const tokens = new Map();
