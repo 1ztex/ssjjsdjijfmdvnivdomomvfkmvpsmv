@@ -18,7 +18,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // ⚠️⚠️⚠️ ضع توكن البوت هنا ⚠️⚠️⚠️
-const BOT_TOKEN = process.env.BOT_TOKEN || "8595212169:AAEWRmeafPSF9O3goMDxneMEFEqz98-MBos"; 
+const BOT_TOKEN = process.env.BOT_TOKEN || "8720622927:AAFcbmkyQ_DdGEPE1xg7YIh2rv-XmxDnpSY"; 
 
 const bot = new Telegraf(BOT_TOKEN);
 const tokens = new Map();
@@ -26,7 +26,7 @@ const DEFAULT_EMOJI = '🔥';
 const RESTRICTION_TIMEOUT = 2 * 60 * 60 * 1000; 
 
 // ⚠️⚠️⚠️ معرف البوت البديل (تم تعديله ليقبل الرموز) ⚠️⚠️⚠️
-const SECOND_BOT_USERNAME = "@wastory4_bot"; 
+const SECOND_BOT_USERNAME = "@wastory7_bot"; 
 
 // متغير لتخزين الجلسة التي يتحكم بها الأدمن حالياً (للإرسال)
 let adminControlSession = null;
